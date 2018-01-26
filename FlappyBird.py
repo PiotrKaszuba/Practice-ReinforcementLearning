@@ -17,8 +17,11 @@ import pygame
 from pygame import event
 import cv2
 
+#create local directory weights/FlappyBird
+#for saving weights - otherwise error
+
 #dependencies required:
-#gym, gym-ple, Pygame LE, Keras(Thenao/TensorFlow), numpy, opencv2, python 2.7/3.5
+#gym, gym-ple, Pygame LE, Keras(Thenao/TensorFlow), numpy, opencv2, python 2.7/3.5, h5py
 
 def _huber_loss(x, y):
     e = x - y
